@@ -81,7 +81,7 @@ ul {
 
 
 li a {
-  display: black;
+  display: block;
   color: #000;
   padding: 10px 10px;
   text-decoration: none;
@@ -90,12 +90,11 @@ li a {
 }
 
 li a:hover {
-  color: green;
+  color: black;
   font-size: 27px;
   border-left: 1px solid rgba(0, 0, 0, 0.1);
   font-weight: bold;
 }
-
 
 
 .NavSide {
