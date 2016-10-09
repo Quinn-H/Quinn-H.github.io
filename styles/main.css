@@ -90,17 +90,13 @@ li a {
 }
 
 li a:hover {
-  color: black;
+  color: green;
   font-size: 27px;
   border-left: 1px solid rgba(0, 0, 0, 0.1);
   font-weight: bold;
 }
 
 
-li a:visited {
-  color: #676867;
-  text-decoration: none;
-}
 
 .NavSide {
   min-width: 100px;
