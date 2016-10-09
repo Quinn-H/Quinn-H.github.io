@@ -81,7 +81,7 @@ ul {
 
 
 li a {
-  display: block;
+  display: blue;
   color: #000;
   padding: 10px 10px;
   text-decoration: none;
@@ -90,7 +90,7 @@ li a {
 }
 
 li a:hover {
-  color: green;
+  color: blue;
   font-size: 27px;
   border-left: 1px solid rgba(0, 0, 0, 0.1);
   font-weight: bold;
@@ -98,7 +98,7 @@ li a:hover {
 
 
 li a:visited {
-  color: green;
+  color: black;
   text-decoration: none;
 }
 
