@@ -56,7 +56,7 @@ body {
 /* this code make a full page background image*/
 
 html {
-    background: rgb(181, 232, 214)/*url(https://hd.unsplash.com/photo-1444665317802-08aa1d89c10c) no-repeat center center fixed*/;
+    background: url(https://hd.unsplash.com/photo-1472469214909-13c93287b522) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
