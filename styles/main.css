@@ -140,4 +140,5 @@ footer a:link:hover {
 .thanksfooter {
     color: pink;
     font-family: 'Fredericka the Great', cursive;
+    background-size: cover;
 }
