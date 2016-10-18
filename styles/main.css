@@ -1,95 +1,162 @@
-.header {
-    font-family: 'Baloo Bhai', cursive;
-    color: black;
-    text-align: center;
-    font-size: 30px;
+/*hero*/
+.SectionHero  {
+  background-image: url(../images/chalkboard1.jpg);
+  text-align: center;
+  border: 10px solid rgb(130, 82, 1);
+  background-size: cover;
+
 }
 
-.NavTop {
-    text-align: center;
-    margin: 0;
-    word-spacing: 20px;
-    font-size: 30px;
-    border-bottom: 2px solid rgba(0, 0, 0, 0.3);
-    border-top: 2px solid rgba(0, 0, 0, 0.3);
-    background-color: none;
-    line-height: 70px;
-}
+.doubleboarder1 {
 
-.NavTop a:hover {
-    color: black;
-    font-size: 35px;
-    font-weight: bold;
-    text-transform: uppercase;
-}
-
-.NavTop a {
-    color: black;
-    text-decoration: none;
-}
-
-.Confucius {
-    font-family: 'Indie Flower', cursive;
-    font-size: 20px;
-    color: black;
-    margin-left: 25%;
-    margin-top: 5%;
-    padding: 1px 16px;
-}
-
-.blog {
-    font-family: 'Lato', sans-serif;
-    padding: 1px 16px;
-    margin-left: 25%;
-    margin-top: 5%;
-}
-
-h4 {
-    font-size: 20px;
-}
-
-body {
-    margin: 5%;
+  border: 5px solid rgb(130, 82, 1);
 }
 
 
-/* this code make a full page background image*/
-
-html {
-    background: url(https://hd.unsplash.com/photo-1472469214909-13c93287b522) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+.Greeting {
+  color: white;
+  font-family: 'Fredericka the Great', cursive;
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 20%;
-    height: 80%;
-    overflow: auto;
-    border-right: 1px solid rgba(0, 0, 0, 0.3);
-    position: absolute;
-    font-size: 19px;
+
+
+
+a:link{
+  text-decoration: none;
+  font-size: 2.9rem;
+  color: white;
+  font-family: 'Fredericka the Great', cursive;
+
 }
 
-li a {
-    display: block;
-    color: #000;
-    padding: 10px 10px;
-    text-decoration: none;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+.inner a:link:hover{
+  color: #6fe7db;
+  text-shadow: 2px 2px 8px #6fe7db;
+  font-size: 3.5rem;
 }
 
-li a:hover {
-    color: black;
-    font-size: 27px;
-    border-left: 1px solid rgba(0, 0, 0, 0.1);
-    font-weight: bold;
+
+.row {
+  margin-bottom: 5rem;
+  font-weight: bold;
 }
 
-.NavSide {
-    min-width: 100px;
+.botline {
+  border-bottom: 2px solid  #6fe7db;
 }
+
+/*this code make nav and face avatar in one line*/
+.inner {
+  padding: 7rem 0;
+}
+
+/* about me */
+
+.SectionAbout {
+
+  text-align: center;
+  padding-top: 5rem;
+  /*border: 10px solid rgb(192,192,192);*/
+  font-family: 'Patrick Hand', cursive;
+  font-size: 2.5rem;
+  background-color: #FFFFFF;
+
+}
+
+.doubleboarder2 {
+  border: 5px solid rgb(192,192,192);
+}
+
+.AboutMe {
+  display: inline-block;
+  color:#000;
+}
+
+
+
+/* Blog*/
+.SectionBlog {
+  background-image: url(../images/chalkboard1.jpg);
+  text-align: center;
+  border: 10px solid rgb(130, 82, 1);
+  font-family: 'Fredericka the Great', cursive;
+  padding-top: 5rem;
+  background-size: cover;
+
+}
+
+.inner2 a:link:hover{
+  color: #ed7777;
+  text-shadow: 2px 2px 8px #ed7777;
+  font-size: 3.5rem;
+}
+
+.textblog a:link {
+  color: #f6f4f1;
+}
+
+.BlogTitle {
+  font-size: 4rem;
+  color: #fad48b;
+}
+
+
+
+.topline {
+  border-bottom: 2px solid  #6fe7db;
+}
+
+/*contact*/
+.SectionContact {
+  text-align: center;
+  /*border: 10px solid rgb(192,192,192);*/
+  /*background-color: #FFFFFF;*/
+  padding-top: 5rem;
+  background-image: url(../images/postcard.jpg);
+  background-size: cover;
+}
+.label-body{
+  color: black;
+}
+
+/*footer*/
+footer {
+  text-align: center;
+  padding-top: 3rem;
+  background-image: url(../images/chalkboard1.jpg);
+  border: 1px solid rgb(130, 82, 1);
+}
+
+span {
+  color: white;
+}
+
+footer a:link:hover {
+  opacity: 0.5;
+}
+
+/*------------------------------------------------------------*/
+
+/*bolg html*/
+
+.thanksfooter{
+  color: pink;
+  font-family: 'Fredericka the Great', cursive;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*lll
