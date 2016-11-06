@@ -67,7 +67,7 @@
             <div class="Greeting">
                 <div class="twelve columns">
                     <h1>~ Blog ~</h1>
-                    <h2>Self-Confidence</h2>
+                    <h2>Problem Solving</h2>
 
 
 
@@ -97,6 +97,7 @@
                     know how to write an if/else statement to put a ‘space’ on the first character of an odd line and a ‘#’ on the first character of even line. It took me 2 hours to figure out how. I have applied to every problem solving technique I
                     learned to this problem, but I still can’t solve it until I found a video on YouTube that teach how to solve this problem. I found solving a problem by looking at the solution is a double edged sword. It can hurt you if you don’t try
                     to solve the problem by yourself at first. When you need to see a solution, you need to ensure you understand the solution very well and you can solve similar problem next time.</p>
+                <h3><strong>Reflect</strong> on how confident you feel using the problem solving techniques and process:</h3>
                 <p>
                     <li>Pseudocode</li>
                     <p>
@@ -119,7 +120,46 @@
                         This is the most helpful technique to solve problems.
                     </p>
                 </p>
+                <h3>Explain to your non-tech friend</h3>
+                <li>.map()</li>
+                <p>
+                    The map() method will make a new array and it will calling the provided function for every array element
 
+                </p>
+                <pre>
+                  <code>var num = [4, 9, 16];
+var roots = num.map(Math.sqrt);
+// roots is now [2, 3, 4]
+// num is still [4, 9, 16]</code>
+                </pre>
+                <li>.filter()</li>
+                <p>
+                  The filter() method creates a new array with all elements that pass the test by the provided function.
+
+                </p>
+                <pre>
+                  <code>function isSmaller(value) {
+return value <= 30;
+}
+
+var filtered = [12, 5, 8, 130, 44].filter(isSmaller);
+// filtered is [12, 5, 8,]</code>
+                </pre>
+                <li>.reduce()</li>
+                <p>
+                  The reduce() method reduces the array to a single value.
+                </p>
+                <pre>
+                  <code>var numbers = [1, 2, 3, 4];
+
+function getSum(total, num) {
+    return total + num;
+}
+function myFunction(item) {
+    document.getElementById("demo").innerHTML = numbers.reduce(getSum);
+}
+//sum of numbers in array: 10</code>
+                </pre>
 
             </div>
         </div>
